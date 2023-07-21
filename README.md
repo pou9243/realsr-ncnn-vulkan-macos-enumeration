@@ -84,7 +84,7 @@ pacman -S vulkan-headers vulkan-icd-loader
 2. Clone this project with all submodules
 
 ```shell
-git clone https://github.com/nihui/realsr-ncnn-vulkan.git
+git clone https://github.com/pou9243/realsr-ncnn-vulkan-macos-enumeration.git
 cd realsr-ncnn-vulkan
 git submodule update --init --recursive
 ```
