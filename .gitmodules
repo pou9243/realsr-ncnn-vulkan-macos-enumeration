@@ -3,4 +3,4 @@
 	url = https://github.com/webmproject/libwebp.git
 [submodule "src/ncnn"]
 	path = src/ncnn
-	url = git@github.com:pou9243/ncnn-macos.git
+	url = https://github.com/pou9243/ncnn-macos.git
