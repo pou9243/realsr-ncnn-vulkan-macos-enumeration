@@ -98,6 +98,13 @@ cd build
 cmake ../src
 cmake --build . -j 4
 ```
+Note: In case "fopen /Users/bag-on-yu/Downloads/realsr-ncnn-vulkan-macos-enumeration/build/models-DF2K_JPEG/x4.param failed" or "fopen /Users/bag-on-yu/Downloads/realsr-ncnn-vulkan-macos-enumeration/build/models-DF2K_JPEG/x4.bin failed" error happens, please follow the additional step below.
+
+In your build directory,
+```shell
+cp -r ../models/models-DF2K .
+cp -r ../models/models-DF2K_JPEG .
+```
 
 ## Sample Images
 
